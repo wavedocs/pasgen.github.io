@@ -4,9 +4,10 @@
 	font-size: 1.2em;
 	padding: 10px;
 	border: 1px #000000 solid;
-	float: left;
 	line-height: 150%;
 	display: none;
+    width: 200px;
+    margin: 0 auto;
 }
 
 #diventropy {
@@ -19,7 +20,8 @@
 }
 
 #pass_cmnt {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 #counter {
@@ -42,12 +44,4 @@
 #genbutton {
 	font-weight: bold;
 	font-size: 1em;
-}
-
-#cn {
-    position: fixed;
-    top: 30px;
-    left: 60px;
-    right: 60px;
-    bottom: 30px;
 }
