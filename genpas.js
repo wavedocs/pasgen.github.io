@@ -101,8 +101,8 @@ function gen_pw2() {
 		symbols = symbols.replace(new RegExp('[B8G6I1l\|0OQDS5Z2]','g'),'');
 	}
 	var symblen = symbols.length - 1;
-	$('#pass_cmnt').html('РЎС‚РѕР№РєРѕСЃС‚СЊ РѕРґРЅРѕРіРѕ РїР°СЂРѕР»СЏ: <i>'+Math.floor(Math.log(symblen)*(pwlen/Math.log(2)))
-						+' bits</i><br>РЎС‚РѕР№РєРѕСЃС‚СЊ РІСЃРµРіРѕ СЃРїРёСЃРєР° РїР°СЂРѕР»РµР№: <i>'+Math.floor(Math.log(symblen)*((pwlen*pwnum)/Math.log(2)))
+	$('#pass_cmnt').html('Стойкость одного пароля: <i>'+Math.floor(Math.log(symblen)*(pwlen/Math.log(2)))
+						+' bits</i><br>Стойкость всего списка паролей: <i>'+Math.floor(Math.log(symblen)*((pwlen*pwnum)/Math.log(2)))
 						+' bits</i>');
 	var f_fullrand = $('#fullrand').attr('checked');
 	var f_pwgen = $('#pwgen').attr('checked');
